@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/icons8_home_48px.png</file>
+        <file>img/icons8_ubuntu_48px.png</file>
+        <file>img/icons8_windows8_26px.png</file>
+        <file>img/icons8_globe_bulb_48px.png</file>
+        <file>img/switch_off.png</file>
+        <file>img/switch_on.png</file>
+        <file>img/icons8_air_conditioner_filled_50px.png</file>
+        <file>img/icons8_temperature_inside_filled_50px.png</file>
+        <file>img/key_down.png</file>
+        <file>img/key_up.png</file>
+        <file>img/icons8_led_bulb_50px.png</file>
+        <file>img/leave_mode.png</file>
+        <file>img/sleep_mode.png</file>
+        <file>img/desktop.png</file>
+    </qresource>
+</RCC>
