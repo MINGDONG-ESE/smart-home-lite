@@ -8,10 +8,6 @@ QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-#.pro文件-学习笔记-2020-3-27-JCxiaohugong
-#.pro属于Qt的qmake的配置文件，#字符具有注释的作用
-# TARGET = 用于指定Qt工程编译后生成的可执行文件的名称
-
 TARGET = SmartHomeClient    #Windows下生成SmartHomeClient.exe , Linux下生成SmartHomeClient
 TEMPLATE = app
 
