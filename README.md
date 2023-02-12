@@ -1,6 +1,6 @@
 # 智能家居客户端(Qt C++)
 
-- [服务器仓库](https://gitee.com/JCxiaohu/TCPServerLite.git)
+- 2020年线上毕业实习课程项目
 
 ---
 
