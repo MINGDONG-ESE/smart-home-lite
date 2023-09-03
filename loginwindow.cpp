@@ -1,4 +1,4 @@
-#include "loginwindow.h"
+﻿#include "loginwindow.h"
 #include "ui_loginwindow.h"
 #include "mainwindow.h"
 #include <QMessageBox>
@@ -19,7 +19,13 @@ LoginWindow::~LoginWindow()
 void LoginWindow::on_pushButton_Login_clicked()
 {
     //登录按钮底色变绿
-    ui->pushButton_Login->setStyleSheet("#pushButton_Login{background-color: rgb(0, 193, 93);border-style: inset;border-width: 3px;border-radius: 10px;border-color: rgb(0, 255, 255);color: rgb(0, 255, 127);}");
+    ui->pushButton_Login->setStyleSheet("#pushButton_Login{\
+     background-color: rgb(0, 193, 93);\
+     border-style: inset;\
+     border-width: 3px;\
+     border-radius: 10px;\
+     border-color: rgb(0, 255, 255);\
+     color: rgb(0, 255, 127);}");
 
 #ifdef PROJECT_DEBUG
     QString user = "6602190210";

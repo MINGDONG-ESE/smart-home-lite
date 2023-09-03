@@ -219,12 +219,14 @@ void MainWindow::on_pushButton_getTemp_clicked()
 
             this->temperature->getCurrentTemp();//向服务器发送获取当前温度的请求
 
-            ui->pushButton_getTemp->setStyleSheet("border-image: url(:/img/icons8_ubuntu_48px.png);background-color: rgb(255, 255, 255);");
+            ui->pushButton_getTemp->setStyleSheet("border-image: url(:/img/icons8_ubuntu_48px.png);\
+                                                  background-color: rgb(255, 255, 255);");
             this->isOpen_getTempPushButton = true;
         }
         else
         {//红底
-            ui->pushButton_getTemp->setStyleSheet("border-image: url(:/img/icons8_ubuntu_48px.png);background-color: rgb(170, 0, 0);");
+            ui->pushButton_getTemp->setStyleSheet("border-image: url(:/img/icons8_ubuntu_48px.png);\
+                                                  background-color: rgb(170, 0, 0);");
             this->isOpen_getTempPushButton = false;
         }
    }
